@@ -1,0 +1,33 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+## Badge
+
+[![R-CMD-check](https://github.com/aishwarya-sreenivasan/SDS375HW6/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/aishwarya-sreenivasan/SDS375HW6/actions/workflows/R-CMD-check.yaml)
+
+## Overview
+
+SDS375HW6 is an R package that provides an efficient S4 class implementation for sparse numeric vectors. Sparse vectors are data structures optimized for storing vectors with many zero elements, significantly reducing memory usage and computation time compared to dense vectors.
+
+## Key Features
+
+- **Sparse Numeric Class (`sparse_numeric`)**: An S4 class that stores only non-zero values and their positions, rather than the entire vector
+- **Efficient Arithmetic Operations**: 
+  - Addition (`sparse_add`, `+`)
+  - Subtraction (`sparse_sub`, `-`)
+  - Element-wise multiplication (`sparse_mult`, `*`)
+  - Cross product/dot product (`sparse_crossprod`)
+- **Statistical Methods**:
+  - `mean()`: Calculate mean of sparse vectors
+  - `norm()`: Compute L2 norm
+  - `standardize()`: Standardize sparse vectors to mean 0 and standard deviation 1
+- **Utility Methods**:
+  - `sort()`: Sort sparse vectors by values
+  - `show()`: Print sparse vector information
+  - `plot()`: Visualize two sparse vectors
+- **Coercion**: Seamless conversion between dense (`numeric`) and sparse (`sparse_numeric`) representations
+- **Data Validation**: Comprehensive validity checks ensure data integrity
+

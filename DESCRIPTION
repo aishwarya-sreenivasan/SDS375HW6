@@ -1,0 +1,13 @@
+Package: SDS375HW6
+Title: HW6: Functions for Sparse Vector Class
+Version: 0.0.0.9000
+Authors@R: 
+    person("Aishwarya", "Sreenivasan", , "aishwarya.s@utexas.edu", role = c("aut", "cre"))
+Description: The goal of this homework assignment is to build an R package building off of the code for the sparse vector class in Homework 5. I have written roxygen2-style documentation for the functions and added unit tests for appropriate coverage. These functions have passed the R CMD check list of checks and have a GitHub Action that runs R CMD check every time a change is pushed to Github.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
