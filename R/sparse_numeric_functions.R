@@ -62,7 +62,7 @@ setAs("sparse_numeric", "numeric", function(from) {
 #'
 #' @param x A sparse_numeric object
 #' @param y A sparse_numeric object
-#' @param ... Additional arguments (not used)
+#' @param ... Additional arguments
 #' @return A sparse_numeric object containing the sum
 #' @examples
 #' x <- as(c(1, 0, 3, 0, 5), "sparse_numeric")
@@ -237,7 +237,7 @@ setMethod("-",
 #'
 #' @param x A sparse_numeric object
 #' @param y A sparse_numeric object
-#' @param ... Additional arguments (not used)
+#' @param ... Additional arguments
 #' @return A numeric scalar representing the cross product
 #' @examples
 #' x <- as(c(1, 0, 3, 0, 5), "sparse_numeric")

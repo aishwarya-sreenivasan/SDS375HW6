@@ -366,8 +366,8 @@ test_that("standardize sparse", {
   result <- standardize(x)
   result_dense <- as(result, "numeric")
 
-  expect_equal(mean(result_dense), 0, tolerance = 1e-10)
-  expect_equal(sd(result_dense), 1, tolerance = 1e-10)
+  expect_equal(mean(result_dense), 0)
+  expect_equal(sd(result_dense), 1)
 })
 
 ## Show method output test
